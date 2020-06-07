@@ -1,0 +1,218 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="time_metric\time_point.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="arbitrary_precision\src\ap_add.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="arbitrary_precision\src\ap_bitwise.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="arbitrary_precision\src\ap_comparison.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="arbitrary_precision\src\ap_copy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="arbitrary_precision\src\ap_div.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="arbitrary_precision\src\ap_estimation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="arbitrary_precision\src\ap_from_string.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="arbitrary_precision\src\ap_integer_storage_base.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="arbitrary_precision\src\ap_integer_storage_dynamic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="arbitrary_precision\src\ap_literal.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="arbitrary_precision\src\ap_memory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="arbitrary_precision\src\ap_mul.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="arbitrary_precision\src\ap_shift.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="arbitrary_precision\src\ap_string_chardigit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="arbitrary_precision\src\ap_sub.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="arbitrary_precision\src\ap_to_string.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="arbitrary_precision\src\ap_trim.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="arbitrary_precision\src\ap_unary.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ttmath\ttmath.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ttmath\ttmathbig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ttmath\ttmathdec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ttmath\ttmathint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ttmath\ttmathmisc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ttmath\ttmathobjects.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ttmath\ttmathparser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ttmath\ttmaththreads.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ttmath\ttmathtypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ttmath\ttmathuint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ttmath\ttmathuint_noasm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ttmath\ttmathuint_x86.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ttmath\ttmathuint_x86_64.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="time_metric\time_metric.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="time_metric\time_point.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="infint\InfInt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="arbitrary_precision\include\ap_add.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="arbitrary_precision\include\ap_basic_conversions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="arbitrary_precision\include\ap_basic_traits.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="arbitrary_precision\include\ap_bitwise.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="arbitrary_precision\include\ap_comparison.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="arbitrary_precision\include\ap_copy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="arbitrary_precision\include\ap_div.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="arbitrary_precision\include\ap_estimation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="arbitrary_precision\include\ap_from_basic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="arbitrary_precision\include\ap_from_string.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="arbitrary_precision\include\ap_integer_descriptor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="arbitrary_precision\include\ap_integer_storage_base.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="arbitrary_precision\include\ap_integer_storage_dynamic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="arbitrary_precision\include\ap_integer_storage_fixed.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="arbitrary_precision\include\ap_integer_storage_wrapper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="arbitrary_precision\include\ap_literal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="arbitrary_precision\include\ap_memory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="arbitrary_precision\include\ap_mul.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="arbitrary_precision\include\ap_shift.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="arbitrary_precision\include\ap_string_chardigit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="arbitrary_precision\include\ap_string_conversions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="arbitrary_precision\include\ap_sub.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="arbitrary_precision\include\ap_to_basic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="arbitrary_precision\include\ap_to_string.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="arbitrary_precision\include\ap_trim.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="arbitrary_precision\include\ap_unary.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="arbitrary_precision\ap_defs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="arbitrary_precision\ap_int.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ttmath\ttmathuint_x86_64_msvc.asm">
+      <Filter>Source Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

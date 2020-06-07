@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <ProjectGuid>{472AB895-4971-4CC7-97EE-3552D24C8579}</ProjectGuid>
+    <RootNamespace>APSpeed</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="arbitrary_precision\src\ap_add.cpp" />
+    <ClCompile Include="arbitrary_precision\src\ap_bitwise.cpp" />
+    <ClCompile Include="arbitrary_precision\src\ap_comparison.cpp" />
+    <ClCompile Include="arbitrary_precision\src\ap_copy.cpp" />
+    <ClCompile Include="arbitrary_precision\src\ap_div.cpp" />
+    <ClCompile Include="arbitrary_precision\src\ap_estimation.cpp" />
+    <ClCompile Include="arbitrary_precision\src\ap_from_string.cpp" />
+    <ClCompile Include="arbitrary_precision\src\ap_integer_storage_base.cpp" />
+    <ClCompile Include="arbitrary_precision\src\ap_integer_storage_dynamic.cpp" />
+    <ClCompile Include="arbitrary_precision\src\ap_literal.cpp" />
+    <ClCompile Include="arbitrary_precision\src\ap_memory.cpp" />
+    <ClCompile Include="arbitrary_precision\src\ap_mul.cpp" />
+    <ClCompile Include="arbitrary_precision\src\ap_shift.cpp" />
+    <ClCompile Include="arbitrary_precision\src\ap_string_chardigit.cpp" />
+    <ClCompile Include="arbitrary_precision\src\ap_sub.cpp" />
+    <ClCompile Include="arbitrary_precision\src\ap_to_string.cpp" />
+    <ClCompile Include="arbitrary_precision\src\ap_trim.cpp" />
+    <ClCompile Include="arbitrary_precision\src\ap_unary.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="time_metric\time_point.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="arbitrary_precision\ap_defs.h" />
+    <ClInclude Include="arbitrary_precision\ap_int.h" />
+    <ClInclude Include="arbitrary_precision\include\ap_add.h" />
+    <ClInclude Include="arbitrary_precision\include\ap_basic_conversions.h" />
+    <ClInclude Include="arbitrary_precision\include\ap_basic_traits.h" />
+    <ClInclude Include="arbitrary_precision\include\ap_bitwise.h" />
+    <ClInclude Include="arbitrary_precision\include\ap_comparison.h" />
+    <ClInclude Include="arbitrary_precision\include\ap_copy.h" />
+    <ClInclude Include="arbitrary_precision\include\ap_div.h" />
+    <ClInclude Include="arbitrary_precision\include\ap_estimation.h" />
+    <ClInclude Include="arbitrary_precision\include\ap_from_basic.h" />
+    <ClInclude Include="arbitrary_precision\include\ap_from_string.h" />
+    <ClInclude Include="arbitrary_precision\include\ap_integer_descriptor.h" />
+    <ClInclude Include="arbitrary_precision\include\ap_integer_storage_base.h" />
+    <ClInclude Include="arbitrary_precision\include\ap_integer_storage_dynamic.h" />
+    <ClInclude Include="arbitrary_precision\include\ap_integer_storage_fixed.h" />
+    <ClInclude Include="arbitrary_precision\include\ap_integer_storage_wrapper.h" />
+    <ClInclude Include="arbitrary_precision\include\ap_literal.h" />
+    <ClInclude Include="arbitrary_precision\include\ap_memory.h" />
+    <ClInclude Include="arbitrary_precision\include\ap_mul.h" />
+    <ClInclude Include="arbitrary_precision\include\ap_shift.h" />
+    <ClInclude Include="arbitrary_precision\include\ap_string_chardigit.h" />
+    <ClInclude Include="arbitrary_precision\include\ap_string_conversions.h" />
+    <ClInclude Include="arbitrary_precision\include\ap_sub.h" />
+    <ClInclude Include="arbitrary_precision\include\ap_to_basic.h" />
+    <ClInclude Include="arbitrary_precision\include\ap_to_string.h" />
+    <ClInclude Include="arbitrary_precision\include\ap_trim.h" />
+    <ClInclude Include="arbitrary_precision\include\ap_unary.h" />
+    <ClInclude Include="infint\InfInt.h" />
+    <ClInclude Include="time_metric\time_metric.h" />
+    <ClInclude Include="time_metric\time_point.h" />
+    <ClInclude Include="ttmath\ttmath.h" />
+    <ClInclude Include="ttmath\ttmathbig.h" />
+    <ClInclude Include="ttmath\ttmathdec.h" />
+    <ClInclude Include="ttmath\ttmathint.h" />
+    <ClInclude Include="ttmath\ttmathmisc.h" />
+    <ClInclude Include="ttmath\ttmathobjects.h" />
+    <ClInclude Include="ttmath\ttmathparser.h" />
+    <ClInclude Include="ttmath\ttmaththreads.h" />
+    <ClInclude Include="ttmath\ttmathtypes.h" />
+    <ClInclude Include="ttmath\ttmathuint.h" />
+    <ClInclude Include="ttmath\ttmathuint_noasm.h" />
+    <ClInclude Include="ttmath\ttmathuint_x86.h" />
+    <ClInclude Include="ttmath\ttmathuint_x86_64.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ttmath\ttmathuint_x86_64_msvc.asm" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
